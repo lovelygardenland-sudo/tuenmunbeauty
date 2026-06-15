@@ -7,16 +7,15 @@
 - `index.html` — 首頁
 - `about.html` — 關於我們
 - `services.html` — 療程服務
-- `blog.html` — 2026 護膚知識博客
-- `gallery.html` — 作品分享
+- `blog.html` — 2026 醫美知識
 - `contact.html` — 聯絡我們
 
-## 建立博客
+## 建站與內容重建
 
-從 Google 試算表更新內容後執行：
+重新生成首頁、療程列表、醫美知識、聯絡頁及所有內頁：
 
 ```bash
-node js/build-blog.js
+node js/build-site.js
 ```
 
 ## 本地預覽

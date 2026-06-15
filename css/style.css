@@ -1,17 +1,20 @@
-/* 康姿健屯門美容 — 全站樣式 */
+/* 康姿健屯門美容 — 粉紫韓系少女感 */
 :root {
-  --color-primary: #6aabaa;
-  --color-primary-dark: #4a8584;
-  --color-accent: #e8a87c;
-  --color-accent-soft: #f4c9a8;
-  --color-bg: #fafafa;
-  --color-bg-alt: #f0f5f5;
-  --color-text: #2c3333;
-  --color-text-muted: #5c6565;
+  --color-primary: #c084d4;
+  --color-primary-dark: #9b5fb0;
+  --color-primary-light: #e8c4f0;
+  --color-accent: #f0a8c8;
+  --color-accent-soft: #fce4ef;
+  --color-lavender: #ede0f5;
+  --color-bg: #fef8fc;
+  --color-bg-alt: #f8eef8;
+  --color-text: #3d2f42;
+  --color-text-muted: #7a6882;
   --font-serif: "Noto Serif TC", "Songti TC", serif;
   --font-sans: "Noto Sans TC", "PingFang TC", sans-serif;
-  --shadow: 0 4px 20px rgba(44, 51, 51, 0.08);
-  --radius: 8px;
+  --shadow: 0 4px 24px rgba(155, 95, 176, 0.1);
+  --shadow-hover: 0 12px 36px rgba(155, 95, 176, 0.18);
+  --radius: 16px;
   --transition: 0.3s ease;
 }
 
@@ -33,6 +36,10 @@ body {
   line-height: 1.7;
   color: var(--color-text);
   background: var(--color-bg);
+  background-image:
+    radial-gradient(ellipse at 10% 0%, rgba(232, 196, 240, 0.35) 0%, transparent 50%),
+    radial-gradient(ellipse at 90% 100%, rgba(240, 168, 200, 0.2) 0%, transparent 50%);
+  min-height: 100vh;
 }
 
 img {
@@ -53,10 +60,10 @@ a:hover {
 
 /* 頂部列 */
 .top-bar {
-  background: var(--color-primary-dark);
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 0.8rem;
-  padding: 0.45rem 1.5rem;
+  background: linear-gradient(90deg, var(--color-primary-dark), var(--color-primary));
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 0.78rem;
+  padding: 0.5rem 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,12 +77,12 @@ a:hover {
 }
 
 .top-bar-social a {
-  color: rgba(255, 255, 255, 0.85);
-  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.78rem;
 }
 
 .top-bar-social a:hover {
-  color: var(--color-accent-soft);
+  color: #fff;
 }
 
 /* 導覽列 */
@@ -83,15 +90,15 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(253, 249, 247, 0.95);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(184, 122, 138, 0.15);
+  background: rgba(254, 248, 252, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(192, 132, 212, 0.15);
 }
 
 .nav-container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 1rem 1.5rem;
+  padding: 0.85rem 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -101,7 +108,7 @@ a:hover {
 
 .logo {
   font-family: var(--font-serif);
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: var(--color-primary-dark);
   display: flex;
@@ -114,6 +121,7 @@ a:hover {
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
+  border: 2px solid var(--color-primary-light);
 }
 
 .logo span {
@@ -123,20 +131,21 @@ a:hover {
 .nav-menu {
   display: flex;
   list-style: none;
-  gap: 0.25rem;
+  gap: 0.15rem;
   flex-wrap: wrap;
 }
 
 .nav-menu a {
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
+  padding: 0.45rem 0.9rem;
+  border-radius: 50px;
   color: var(--color-text);
   font-weight: 500;
+  font-size: 0.95rem;
 }
 
 .nav-menu a:hover,
 .nav-menu a.active {
-  background: var(--color-bg-alt);
+  background: var(--color-lavender);
   color: var(--color-primary-dark);
 }
 
@@ -152,7 +161,7 @@ a:hover {
 /* 主視覺 */
 .hero {
   position: relative;
-  min-height: 75vh;
+  min-height: 72vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -165,7 +174,7 @@ a:hover {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(143, 90, 104, 0.88) 0%, rgba(58, 47, 50, 0.75) 100%);
+  background: linear-gradient(135deg, rgba(155, 95, 176, 0.82) 0%, rgba(240, 168, 200, 0.75) 100%);
   z-index: 1;
 }
 
@@ -183,56 +192,57 @@ a:hover {
 
 .hero-badge {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 0.35rem 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  padding: 0.35rem 1.1rem;
   border-radius: 50px;
   font-size: 0.85rem;
   margin-bottom: 1.25rem;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
 }
 
 .hero h1 {
   font-family: var(--font-serif);
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2rem, 5vw, 2.8rem);
   font-weight: 600;
   margin-bottom: 1rem;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
+  text-shadow: 0 2px 12px rgba(61, 47, 66, 0.2);
 }
 
 .hero p {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   opacity: 0.95;
   margin-bottom: 2rem;
 }
 
 .btn {
   display: inline-block;
-  padding: 0.85rem 2rem;
+  padding: 0.8rem 1.8rem;
   border-radius: 50px;
   font-weight: 600;
   transition: transform var(--transition), box-shadow var(--transition);
   border: none;
   cursor: pointer;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 .btn-primary {
-  background: var(--color-accent);
+  background: linear-gradient(135deg, var(--color-accent), var(--color-primary-light));
   color: var(--color-text);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(212, 165, 116, 0.4);
+  box-shadow: var(--shadow-hover);
   color: var(--color-text);
 }
 
 .btn-outline {
   background: transparent;
   color: #fff;
-  border: 2px solid rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.75);
   margin-left: 0.75rem;
 }
 
@@ -254,14 +264,14 @@ a:hover {
 
 /* 區塊 */
 .section {
-  padding: 4rem 1.5rem;
+  padding: 3.5rem 1.5rem;
   max-width: 1100px;
   margin: 0 auto;
 }
 
 .section-title {
   font-family: var(--font-serif);
-  font-size: 2rem;
+  font-size: 1.85rem;
   text-align: center;
   margin-bottom: 0.5rem;
   color: var(--color-primary-dark);
@@ -270,14 +280,27 @@ a:hover {
 .section-subtitle {
   text-align: center;
   color: var(--color-text-muted);
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
+  font-size: 0.95rem;
 }
 
-/* 卡片網格 */
+.cat-title {
+  text-align: left !important;
+  font-size: 1.35rem !important;
+  margin: 2.5rem 0 1.25rem !important;
+  padding-left: 0.75rem;
+  border-left: 4px solid var(--color-primary);
+}
+
+.cat-title:first-of-type {
+  margin-top: 0 !important;
+}
+
+/* 卡片 */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1.75rem;
 }
 
 .card {
@@ -285,12 +308,13 @@ a:hover {
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
+  border: 1px solid rgba(192, 132, 212, 0.1);
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(58, 47, 50, 0.12);
+  box-shadow: var(--shadow-hover);
 }
 
 .card-image {
@@ -302,68 +326,72 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform var(--transition);
 }
 
-.card-image-placeholder {
-  height: 200px;
-  background: linear-gradient(145deg, var(--color-bg-alt), var(--color-primary));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  color: rgba(255, 255, 255, 0.9);
+.card:hover .card-image img {
+  transform: scale(1.04);
 }
 
 .card-body {
-  padding: 1.5rem;
+  padding: 1.35rem;
 }
 
 .card-body h3 {
   font-family: var(--font-serif);
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   margin-bottom: 0.5rem;
   color: var(--color-primary-dark);
 }
 
 .card-body p {
   color: var(--color-text-muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 /* 特色區 */
 .features {
   background: var(--color-bg-alt);
+  border-radius: var(--radius);
+  margin: 0 1.5rem;
+  max-width: calc(1100px - 3rem);
 }
 
 .feature-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
   list-style: none;
 }
 
 .feature-item {
   text-align: center;
-  padding: 1.5rem;
+  padding: 1.25rem;
 }
 
 .feature-icon {
-  width: 64px;
-  height: 64px;
-  margin: 0 auto 1rem;
-  background: var(--color-primary);
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 0.85rem;
+  background: linear-gradient(135deg, var(--color-primary-light), var(--color-accent));
   color: #fff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
 }
 
 .feature-item h3 {
   font-family: var(--font-serif);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
   color: var(--color-primary-dark);
+  font-size: 1rem;
+}
+
+.feature-item p {
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
 }
 
 /* 獎項 */
@@ -372,16 +400,16 @@ a:hover {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
-  padding: 2rem 1.5rem;
+  padding: 1.75rem 1.5rem;
   background: #fff;
-  border-top: 1px solid var(--color-bg-alt);
-  border-bottom: 1px solid var(--color-bg-alt);
+  border-top: 1px solid var(--color-lavender);
+  border-bottom: 1px solid var(--color-lavender);
 }
 
 .award-item {
   text-align: center;
   max-width: 220px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--color-text-muted);
 }
 
@@ -389,12 +417,13 @@ a:hover {
   display: block;
   color: var(--color-primary-dark);
   font-family: var(--font-serif);
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.2rem;
+  font-size: 0.9rem;
 }
 
 /* 頁面標題 */
 .page-header {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
   color: #fff;
   padding: 3rem 1.5rem;
   text-align: center;
@@ -402,12 +431,13 @@ a:hover {
 
 .page-header h1 {
   font-family: var(--font-serif);
-  font-size: 2.25rem;
+  font-size: 2.1rem;
   margin-bottom: 0.5rem;
 }
 
 .page-header p {
-  opacity: 0.9;
+  opacity: 0.92;
+  font-size: 0.95rem;
 }
 
 /* 內容區 */
@@ -418,9 +448,9 @@ a:hover {
 
 .content-block h2 {
   font-family: var(--font-serif);
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: var(--color-primary-dark);
-  margin: 2rem 0 1rem;
+  margin: 2rem 0 0.85rem;
 }
 
 .content-block p {
@@ -434,82 +464,7 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-/* 療程列表 */
-.service-card {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 1.5rem;
-  background: #fff;
-  padding: 1.5rem;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  margin-bottom: 1.5rem;
-  align-items: start;
-}
-
-.service-card img {
-  width: 200px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.service-card h3 {
-  font-family: var(--font-serif);
-  color: var(--color-primary-dark);
-  margin-bottom: 0.5rem;
-}
-
-.service-tag {
-  display: inline-block;
-  background: var(--color-bg-alt);
-  color: var(--color-primary-dark);
-  padding: 0.2rem 0.6rem;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  margin-right: 0.4rem;
-  margin-bottom: 0.4rem;
-}
-
-/* 相簿 */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1.25rem;
-}
-
-.gallery-item {
-  position: relative;
-  border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: var(--shadow);
-  aspect-ratio: 1;
-}
-
-.gallery-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform var(--transition);
-}
-
-.gallery-item:hover img {
-  transform: scale(1.05);
-}
-
-.gallery-caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 1rem;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
-  color: #fff;
-  font-size: 0.85rem;
-  line-height: 1.4;
-}
-
-/* 聯絡表單 */
+/* 聯絡 */
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -531,133 +486,54 @@ a:hover {
 .contact-info strong {
   display: block;
   color: var(--color-primary-dark);
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.2rem;
 }
 
 .form-group {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.15rem;
 }
 
 .form-group label {
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.45rem;
   font-weight: 500;
   color: var(--color-primary-dark);
+  font-size: 0.9rem;
 }
 
 .form-group input,
 .form-group textarea,
 .form-group select {
   width: 100%;
-  padding: 0.75rem 1rem;
-  border: 1px solid var(--color-bg-alt);
-  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--color-lavender);
+  border-radius: 12px;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 0.95rem;
   background: #fff;
 }
 
 .form-group textarea {
-  min-height: 120px;
+  min-height: 110px;
   resize: vertical;
 }
 
-/* 頁尾 */
-.site-footer {
-  background: var(--color-primary-dark);
-  color: rgba(255, 255, 255, 0.85);
-  padding: 3rem 1.5rem 1.5rem;
-  margin-top: 4rem;
-}
-
-.footer-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  margin-bottom: 2rem;
-}
-
-.footer-inner h4 {
-  font-family: var(--font-serif);
-  color: #fff;
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-}
-
-.footer-inner ul {
-  list-style: none;
-}
-
-.footer-inner a {
-  color: rgba(255, 255, 255, 0.75);
-}
-
-.footer-inner a:hover {
-  color: var(--color-accent);
-}
-
-.footer-bottom {
-  text-align: center;
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  font-size: 0.9rem;
-  opacity: 0.8;
-}
-
-.social-links {
-  display: flex;
-  gap: 1rem;
-  margin-top: 0.75rem;
-}
-
-.social-links a {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 0.9rem;
-}
-
-/* 浮動 WhatsApp */
-.float-whatsapp {
-  position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
-  width: 56px;
-  height: 56px;
-  background: #25d366;
-  color: #fff;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
-  z-index: 200;
-  transition: transform var(--transition);
-}
-
-.float-whatsapp:hover {
-  transform: scale(1.08);
-  color: #fff;
-}
-
-/* 博客列表 — Lumino 風格 */
+/* 博客 */
 .blog-hero {
-  background: linear-gradient(135deg, #e8f4f4 0%, #f5e6dc 50%, #fafafa 100%);
-  padding: 4rem 1.5rem 3rem;
+  background: linear-gradient(135deg, var(--color-lavender) 0%, var(--color-accent-soft) 60%, #fff 100%);
+  padding: 3.5rem 1.5rem 2.5rem;
   text-align: center;
 }
 
 .blog-hero h1 {
   font-family: var(--font-serif);
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   color: var(--color-primary-dark);
   margin-bottom: 0.5rem;
 }
 
 .blog-hero p {
   color: var(--color-text-muted);
-  font-size: 1.05rem;
 }
 
 .blog-section {
@@ -667,7 +543,7 @@ a:hover {
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-  gap: 1.75rem;
+  gap: 1.5rem;
 }
 
 .blog-card {
@@ -675,12 +551,13 @@ a:hover {
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
+  border: 1px solid rgba(192, 132, 212, 0.1);
   transition: transform var(--transition), box-shadow var(--transition);
 }
 
 .blog-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(44, 51, 51, 0.12);
+  box-shadow: var(--shadow-hover);
 }
 
 .blog-card-link {
@@ -714,30 +591,30 @@ a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(transparent, rgba(232, 168, 124, 0.95));
-  padding: 2rem 1rem 0.75rem;
+  background: linear-gradient(transparent, rgba(155, 95, 176, 0.85));
+  padding: 2rem 0.85rem 0.65rem;
 }
 
 .blog-card-banner span {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.9);
-  color: var(--color-text);
-  font-size: 0.75rem;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--color-primary-dark);
+  font-size: 0.72rem;
   font-weight: 600;
-  padding: 0.25rem 0.6rem;
-  border-radius: 4px;
+  padding: 0.2rem 0.55rem;
+  border-radius: 50px;
 }
 
 .blog-card-body {
-  padding: 1.25rem;
+  padding: 1.15rem;
 }
 
 .blog-card-body h2 {
   font-family: var(--font-serif);
-  font-size: 1rem;
+  font-size: 0.95rem;
   line-height: 1.5;
   color: var(--color-text);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.6rem;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -745,39 +622,58 @@ a:hover {
 }
 
 .blog-card-body p {
-  font-size: 0.88rem;
+  font-size: 0.85rem;
   color: var(--color-text-muted);
-  line-height: 1.6;
-  margin-bottom: 0.75rem;
+  line-height: 1.55;
+  margin-bottom: 0.6rem;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
 .read-more {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: var(--color-primary);
   font-weight: 600;
 }
 
-/* 博客文章頁 */
+.price-tag {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.price-badge {
+  display: inline-block;
+  background: var(--color-lavender);
+  color: var(--color-primary-dark);
+  padding: 0.35rem 1rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem !important;
+}
+
+/* 文章頁 */
 .blog-article-hero {
   position: relative;
-  max-height: 420px;
+  max-height: 400px;
   overflow: hidden;
 }
 
 .blog-article-hero img {
   width: 100%;
-  height: 420px;
+  height: 400px;
   object-fit: cover;
 }
 
 .blog-article-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(transparent 30%, rgba(44, 51, 51, 0.85));
+  background: linear-gradient(transparent 25%, rgba(61, 47, 66, 0.82));
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -787,7 +683,7 @@ a:hover {
 
 .blog-article-overlay h1 {
   font-family: var(--font-serif);
-  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-size: clamp(1.3rem, 3vw, 1.85rem);
   max-width: 800px;
   margin: 0 auto;
   width: 100%;
@@ -797,11 +693,11 @@ a:hover {
   display: inline-block;
   background: var(--color-accent);
   color: var(--color-text);
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 600;
   padding: 0.25rem 0.75rem;
-  border-radius: 4px;
-  margin-bottom: 0.75rem;
+  border-radius: 50px;
+  margin-bottom: 0.65rem;
   width: fit-content;
 }
 
@@ -810,26 +706,26 @@ a:hover {
 }
 
 .blog-meta {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: var(--color-text-muted);
   margin-bottom: 2rem !important;
   padding-bottom: 1rem;
-  border-bottom: 1px solid var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-lavender);
 }
 
 .blog-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 2rem;
+  gap: 0.45rem;
+  margin-top: 1.5rem;
 }
 
 .blog-tag {
-  background: var(--color-bg-alt);
+  background: var(--color-lavender);
   color: var(--color-primary-dark);
-  padding: 0.3rem 0.7rem;
+  padding: 0.25rem 0.65rem;
   border-radius: 50px;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
 }
 
 .blog-cta {
@@ -838,11 +734,93 @@ a:hover {
   background: var(--color-bg-alt);
   border-radius: var(--radius);
   text-align: center;
+  border: 1px solid var(--color-lavender);
 }
 
 .blog-cta p {
-  margin-bottom: 1.25rem !important;
+  margin-bottom: 1.15rem !important;
   color: var(--color-text);
+}
+
+/* 頁尾 */
+.site-footer {
+  background: linear-gradient(135deg, #7a4d8a 0%, var(--color-primary-dark) 100%);
+  color: rgba(255, 255, 255, 0.88);
+  padding: 3rem 1.5rem 1.5rem;
+  margin-top: 3rem;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-inner h4 {
+  font-family: var(--font-serif);
+  color: #fff;
+  margin-bottom: 0.85rem;
+  font-size: 1.05rem;
+}
+
+.footer-inner ul {
+  list-style: none;
+}
+
+.footer-inner a {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.9rem;
+}
+
+.footer-inner a:hover {
+  color: var(--color-accent-soft);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.social-links {
+  display: flex;
+  gap: 0.85rem;
+  margin-top: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.85rem;
+}
+
+/* 浮動 WhatsApp */
+.float-whatsapp {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 54px;
+  height: 54px;
+  background: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
+  z-index: 200;
+  transition: transform var(--transition);
+}
+
+.float-whatsapp:hover {
+  transform: scale(1.08);
+  color: #fff;
 }
 
 /* 響應式 */
@@ -870,13 +848,9 @@ a:hover {
     grid-template-columns: 1fr;
   }
 
-  .service-card {
-    grid-template-columns: 1fr;
-  }
-
-  .service-card img {
-    width: 100%;
-    height: 180px;
+  .features {
+    margin: 0 0.75rem;
+    max-width: none;
   }
 
   .top-bar {
@@ -891,7 +865,7 @@ a:hover {
   .float-whatsapp {
     bottom: 1rem;
     right: 1rem;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
   }
 }
