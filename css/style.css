@@ -1,16 +1,17 @@
 /* 康姿健屯門美容 — 全站樣式 */
 :root {
-  --color-primary: #b87a8a;
-  --color-primary-dark: #8f5a68;
-  --color-accent: #d4a574;
-  --color-bg: #fdf9f7;
-  --color-bg-alt: #f8ede8;
-  --color-text: #3a2f32;
-  --color-text-muted: #6b5c60;
+  --color-primary: #6aabaa;
+  --color-primary-dark: #4a8584;
+  --color-accent: #e8a87c;
+  --color-accent-soft: #f4c9a8;
+  --color-bg: #fafafa;
+  --color-bg-alt: #f0f5f5;
+  --color-text: #2c3333;
+  --color-text-muted: #5c6565;
   --font-serif: "Noto Serif TC", "Songti TC", serif;
   --font-sans: "Noto Sans TC", "PingFang TC", sans-serif;
-  --shadow: 0 4px 20px rgba(58, 47, 50, 0.08);
-  --radius: 12px;
+  --shadow: 0 4px 20px rgba(44, 51, 51, 0.08);
+  --radius: 8px;
   --transition: 0.3s ease;
 }
 
@@ -48,6 +49,33 @@ a {
 
 a:hover {
   color: var(--color-primary);
+}
+
+/* 頂部列 */
+.top-bar {
+  background: var(--color-primary-dark);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.8rem;
+  padding: 0.45rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.top-bar-social {
+  display: flex;
+  gap: 1rem;
+}
+
+.top-bar-social a {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.8rem;
+}
+
+.top-bar-social a:hover {
+  color: var(--color-accent-soft);
 }
 
 /* 導覽列 */
@@ -589,6 +617,234 @@ a:hover {
   font-size: 0.9rem;
 }
 
+/* 浮動 WhatsApp */
+.float-whatsapp {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 56px;
+  height: 56px;
+  background: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
+  z-index: 200;
+  transition: transform var(--transition);
+}
+
+.float-whatsapp:hover {
+  transform: scale(1.08);
+  color: #fff;
+}
+
+/* 博客列表 — Lumino 風格 */
+.blog-hero {
+  background: linear-gradient(135deg, #e8f4f4 0%, #f5e6dc 50%, #fafafa 100%);
+  padding: 4rem 1.5rem 3rem;
+  text-align: center;
+}
+
+.blog-hero h1 {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 0.5rem;
+}
+
+.blog-hero p {
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+}
+
+.blog-section {
+  max-width: 1200px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 1.75rem;
+}
+
+.blog-card {
+  background: #fff;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(44, 51, 51, 0.12);
+}
+
+.blog-card-link {
+  display: block;
+  color: inherit;
+}
+
+.blog-card-link:hover {
+  color: inherit;
+}
+
+.blog-card-image {
+  position: relative;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+
+.blog-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition);
+}
+
+.blog-card:hover .blog-card-image img {
+  transform: scale(1.04);
+}
+
+.blog-card-banner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(232, 168, 124, 0.95));
+  padding: 2rem 1rem 0.75rem;
+}
+
+.blog-card-banner span {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--color-text);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+}
+
+.blog-card-body {
+  padding: 1.25rem;
+}
+
+.blog-card-body h2 {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--color-text);
+  margin-bottom: 0.75rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.blog-card-body p {
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.read-more {
+  font-size: 0.85rem;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+/* 博客文章頁 */
+.blog-article-hero {
+  position: relative;
+  max-height: 420px;
+  overflow: hidden;
+}
+
+.blog-article-hero img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+.blog-article-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(transparent 30%, rgba(44, 51, 51, 0.85));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem 1.5rem;
+  color: #fff;
+}
+
+.blog-article-overlay h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.blog-card-category {
+  display: inline-block;
+  background: var(--color-accent);
+  color: var(--color-text);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+  width: fit-content;
+}
+
+.blog-article-body {
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.blog-meta {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-bottom: 2rem !important;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-bg-alt);
+}
+
+.blog-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.blog-tag {
+  background: var(--color-bg-alt);
+  color: var(--color-primary-dark);
+  padding: 0.3rem 0.7rem;
+  border-radius: 50px;
+  font-size: 0.8rem;
+}
+
+.blog-cta {
+  margin-top: 2.5rem;
+  padding: 2rem;
+  background: var(--color-bg-alt);
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+.blog-cta p {
+  margin-bottom: 1.25rem !important;
+  color: var(--color-text);
+}
+
 /* 響應式 */
 @media (max-width: 768px) {
   .nav-toggle {
@@ -621,5 +877,21 @@ a:hover {
   .service-card img {
     width: 100%;
     height: 180px;
+  }
+
+  .top-bar {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .blog-article-hero img {
+    height: 260px;
+  }
+
+  .float-whatsapp {
+    bottom: 1rem;
+    right: 1rem;
+    width: 50px;
+    height: 50px;
   }
 }
