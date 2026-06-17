@@ -258,7 +258,7 @@ content.services.forEach((s) => {
 
 const servicesMain = `<header class="blog-hero">
   <h1>療程服務</h1>
-  <p>參考 Lumino eShop 的直觀卡片式瀏覽，一眼揀到適合療程</p>
+  <p>卡片式瀏覽，一眼揀到適合療程</p>
 </header>
 <section class="section blog-section">
   <p class="section-subtitle" style="margin-top:-1rem">單次收費、明碼實價、絕無硬銷</p>
@@ -280,7 +280,7 @@ fs.writeFileSync(
   layout(
     "療程服務｜康姿健屯門美容",
     "屯門康姿健療程服務：果酸、等離子、微針、激光、遠紅外線養生。單次收費，絕無硬銷。",
-    "images/promo-03.png",
+    "images/promo/hero-banner.png",
     "services.html",
     servicesMain
   )
@@ -311,11 +311,11 @@ const featuredSvc = content.services.slice(0, 6);
 const featuredKnow = content.knowledge.slice(0, 3);
 
 const indexMain = `<section class="hero">
-  <div class="hero-bg"><img src="images/promo-03.png" alt="康姿健療程"></div>
+  <div class="hero-bg"><img src="images/promo/hero-banner.png" alt="康姿健療程"></div>
   <div class="hero-content">
     <span class="hero-badge">韓系少女感 · 醫美科技 · 單次收費</span>
     <h1>屯門醫美療程，量膚定制更安心</h1>
-    <p>參考你喜歡的 Lumino 版面，重整為「療程服務 + 醫美知識」雙主軸，快速了解項目與效果。</p>
+    <p>粉紫韓系醫美風格，量膚定制療程與專業護膚知識，為香港 25-40 歲女性而設。</p>
     <a href="services.html" class="btn btn-primary">立即查看療程</a>
     <a href="${SITE.whatsapp}" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp 預約</a>
   </div>
@@ -350,7 +350,7 @@ fs.writeFileSync(
   layout(
     "康姿健｜屯門美容",
     "屯門康姿健醫美中心，韓系少女感版面，療程與醫美知識整合。適合香港25-40歲女性。",
-    "images/promo-03.png",
+    "images/promo/hero-banner.png",
     "index.html",
     indexMain
   )

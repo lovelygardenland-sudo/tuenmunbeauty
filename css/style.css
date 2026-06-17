@@ -1,13 +1,14 @@
 /* 康姿健屯門美容 — 粉紫韓系少女感 */
 :root {
-  --color-primary: #c084d4;
-  --color-primary-dark: #9b5fb0;
-  --color-primary-light: #e8c4f0;
-  --color-accent: #f0a8c8;
-  --color-accent-soft: #fce4ef;
-  --color-lavender: #ede0f5;
-  --color-bg: #fef8fc;
-  --color-bg-alt: #f8eef8;
+  --color-primary: #c77bd4;
+  --color-primary-dark: #a855c9;
+  --color-primary-light: #e8b8f5;
+  --color-accent: #f5a8d0;
+  --color-accent-soft: #fde8f3;
+  --color-lavender: #f0d4f8;
+  --color-pink: #ffd6ec;
+  --color-bg: #fff5fb;
+  --color-bg-alt: #fae8f5;
   --color-text: #3d2f42;
   --color-text-muted: #7a6882;
   --font-serif: "Noto Serif TC", "Songti TC", serif;
@@ -37,8 +38,8 @@ body {
   color: var(--color-text);
   background: var(--color-bg);
   background-image:
-    radial-gradient(ellipse at 10% 0%, rgba(232, 196, 240, 0.35) 0%, transparent 50%),
-    radial-gradient(ellipse at 90% 100%, rgba(240, 168, 200, 0.2) 0%, transparent 50%);
+    radial-gradient(ellipse at 10% 0%, rgba(232, 184, 245, 0.45) 0%, transparent 55%),
+    radial-gradient(ellipse at 90% 100%, rgba(245, 168, 208, 0.35) 0%, transparent 55%);
   min-height: 100vh;
 }
 
@@ -174,7 +175,7 @@ a:hover {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(155, 95, 176, 0.82) 0%, rgba(240, 168, 200, 0.75) 100%);
+  background: linear-gradient(135deg, rgba(168, 85, 201, 0.78) 0%, rgba(245, 168, 208, 0.72) 55%, rgba(255, 214, 236, 0.55) 100%);
   z-index: 1;
 }
 
@@ -520,7 +521,7 @@ a:hover {
 
 /* 博客 */
 .blog-hero {
-  background: linear-gradient(135deg, var(--color-lavender) 0%, var(--color-accent-soft) 60%, #fff 100%);
+  background: linear-gradient(135deg, var(--color-lavender) 0%, var(--color-pink) 45%, var(--color-accent-soft) 80%, #fff 100%);
   padding: 3.5rem 1.5rem 2.5rem;
   text-align: center;
 }

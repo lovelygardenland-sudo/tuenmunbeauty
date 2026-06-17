@@ -5,150 +5,227 @@
       "category": "果酸煥膚",
       "title": "西班牙 TEGODER 量膚定制果酸療程",
       "price": "單次收費 · 量膚分析後建議",
-      "image": "images/promo-15.png",
+      "image": "images/promo/tegoder-overview.png",
       "excerpt": "4 款專屬果酸配方，針對油性、敏感、暗沉、熟齡肌，真正做到對症下藥。",
       "body": "好多客人以為黎康姿健淨係做儀器？其實我哋嘅人手護膚品療程一樣係皇牌！我哋特別引入西班牙頂級醫學美容品牌 TEGODER，為大家帶黎 4 款針對唔同膚質嘅專屬果酸療程。\n\n🧏🏻‍♀️ 油性/暗瘡肌 → 淨化平衡皮脂果酸 30（水楊酸+杏仁酸 30%）\n🍓 敏感/泛紅肌 → 玫瑰亮白果酸 21（極溫和杏仁酸配方）\n🥀 暗啞/色斑肌 → 淨白抗齡 B3 果酸 29（去黃美白）\n👵 熟齡/鬆弛肌 → 真皮更生複合酸 26（TCA+AHA+BHA 抗老）\n\n美容師會先幫你做詳細皮膚分析，再挑選最適合你嘅配方，配合溫柔人手按摩，將精華深層滲透。",
-      "tags": ["TEGODER", "果酸煥膚", "量膚定制", "屯門美容"]
+      "tags": [
+        "TEGODER",
+        "果酸煥膚",
+        "量膚定制",
+        "屯門美容"
+      ]
     },
     {
       "slug": "plaser-plasma",
       "category": "等離子儀器",
       "title": "PLASER 隔空離子熱能射頻再生儀",
       "price": "單次收費",
-      "image": "images/promo-03.png",
+      "image": "images/promo/air-plaser.png",
       "excerpt": "德國 Flyzer 專利技術，結合等離子+射頻，殺菌美白緊緻一次過。",
       "body": "康姿健引入 PLASER 隔空離子熱能射頻再生儀，2-in-1 黑科技療程：\n\n1️⃣ PLASER AIR（空氣等離子）：打開肌膚吸收通道，護膚品吸收率激增 120 倍；殺菌抗炎，適合暗瘡肌/敏感肌。\n2️⃣ PLASER RF（微針射頻）：滲透真皮層刺激膠原蛋白同彈力蛋白，改善毛孔、皺紋同輪廓。\n\n無創、無痛，同時滿足抗衰老同修復需求。",
-      "tags": ["PLASER", "等離子", "德國科技", "屯門美容"]
+      "tags": [
+        "PLASER",
+        "等離子",
+        "德國科技",
+        "屯門美容"
+      ]
     },
     {
       "slug": "microneedle-rf",
       "category": "微針射頻",
       "title": "微針射頻膠原修復療程",
       "price": "$880 / 單次（可加 $300 Bioskin 精華）",
-      "image": "images/promo-04.png",
+      "image": "images/promo/microneedle.png",
       "excerpt": "西班牙 Mesoestetic m.pen 智能電動微針，垂直進針更精準，收毛孔去凹凸洞。",
       "body": "想做微針收毛孔、去凹凸洞，但又怕痛怕爛面？康姿健引入 Mesoestetic m.pen[pro] 智能電動微針，徹底打破你對傳統微針嘅恐懼！\n\n✨ 5 段變速 + 6 種深度調節，100% 客製化\n✨ 垂直進針技術，比滾輪更穩定精準，大大減低痛感\n✨ 一邊微針一邊射頻，激活膠原同時導入精華\n\n可加購 Bioskin 精華：BSK36 膠原、BSK3 抗皺、BSK6 修復。",
-      "tags": ["微針射頻", "收毛孔", "凹凸洞", "Mesoestetic"]
+      "tags": [
+        "微針射頻",
+        "收毛孔",
+        "凹凸洞",
+        "Mesoestetic"
+      ]
     },
     {
       "slug": "plasma-acne",
       "category": "等離子儀器",
       "title": "等離子抗痘煥膚療程",
       "price": "$680 / 單次（可加 $300 Bioskin 精華）",
-      "image": "images/promo-04.png",
+      "image": "images/promo/plasma-acne.png",
       "excerpt": "抗炎控油、收細毛孔，針對暗瘡肌、油脂粒、毛囊炎。",
       "body": "針對暗瘡肌、油性肌、黑頭粉刺同毛囊炎。等離子能量殺菌抗炎，配合 Bioskin 精華加強修復：BSK8 抗菌舒緩、BSK29 維他命活化、BSK14 光感透亮、BSK7 美白淡斑。",
-      "tags": ["等離子", "暗瘡護理", "控油", "收毛孔"]
+      "tags": [
+        "等離子",
+        "暗瘡護理",
+        "控油",
+        "收毛孔"
+      ]
     },
     {
       "slug": "plasma-resurfacing",
       "category": "等離子儀器",
       "title": "等離子煥膚療程",
       "price": "單次收費",
-      "image": "images/promo-02.png",
+      "image": "images/promo/plasma-resurfacing.png",
       "excerpt": "溫和更新角質、改善粗糙乾紋，熟齡肌同敏感肌都適合。",
       "body": "針對乾燥脫皮、粗糙、乾紋等問題。等離子煥膚溫和更新皮膚表面、減少角質，令肌膚更光滑透亮，加強精華吸收速度。刺激感比激光低，特別適合熟齡肌同敏感肌。",
-      "tags": ["等離子煥膚", "熟齡肌", "敏感肌", "屯門facial"]
+      "tags": [
+        "等離子煥膚",
+        "熟齡肌",
+        "敏感肌",
+        "屯門facial"
+      ]
     },
     {
       "slug": "collazen-tornado",
       "category": "綜合儀器",
       "title": "COLLAZEN 膠原美肌小旋風",
       "price": "單次收費",
-      "image": "images/promo-08.png",
+      "image": "images/promo/collazen-tornado.png",
       "excerpt": "5 合 1 全效護理：清潔、補濕、HIFU 拉提、RF 膠原、Cryo 修復。",
       "body": "COLLAZEN 膠原美肌小旋風，一次療程滿足 5 大肌膚需求：\n\n1️⃣ SonoClean 超聲清潔：34KHz 清除死皮、黑頭、油脂\n2️⃣ 3-Way Sono 三重補濕：淺中深層注水，打造水光肌\n3️⃣ 3-Way HIFU 三層拉提：1.5mm/3.0mm/4.5mm 同步輪廓提升\n4️⃣ RF 射頻：刺激膠原蛋白，改善彈性同膚質\n5️⃣ Cryo 冰火修復：-15°C 至 45°C 離子導入，舒緩滋養\n\nHIFU、RF 前後護理，效果 Double Up！",
-      "tags": ["COLLAZEN", "HIFU", "RF", "膠原再生", "屯門美容"]
+      "tags": [
+        "COLLAZEN",
+        "HIFU",
+        "RF",
+        "膠原再生",
+        "屯門美容"
+      ]
     },
     {
       "slug": "nano-laser",
       "category": "激光療程",
       "title": "韓國 Ruikd Genelux Lite 納米激光",
       "price": "單次收費",
-      "image": "images/promo-10.png",
+      "image": "images/promo/nano-laser.png",
       "excerpt": "Q-Switched Nd:YAG 技術，祛斑、收毛孔、提亮膚色。",
       "body": "韓國 Ruikd Genelux Lite 納米激光，Q-Switched Nd:YAG 技術精準擊退色素，不傷害周邊皮膚。改善雀斑、荷爾蒙斑、毛孔粗大、膚色暗沉。KFDA、CE、GMP、ISO 認證。",
-      "tags": ["納米激光", "祛斑", "美白", "收毛孔"]
+      "tags": [
+        "納米激光",
+        "祛斑",
+        "美白",
+        "收毛孔"
+      ]
     },
     {
       "slug": "freckle-removal",
       "category": "激光療程",
       "title": "表皮斑雀斑護理療程（結焦式祛斑）",
       "price": "半面 $980 / 全臉 $1,280 單次",
-      "image": "images/promo-14.png",
+      "image": "images/promo/freckle-removal.png",
       "excerpt": "PLASER 等離子 1-PIN 模式精準擊退黑色素，一次見效。",
       "body": "針對頑固雀斑同表皮斑。PLASER 等離子 1-PIN 單點模式釋放熱能等離子，精準分解黑色素，配合 20% 維他命 C 美白安瓶修復。\n\n術後護理：勿用手抠結痂、加強保濕、嚴格防曬、避免高溫、暫停果酸護膚品。",
-      "tags": ["祛斑", "雀斑", "PLASER", "單次收費"]
+      "tags": [
+        "祛斑",
+        "雀斑",
+        "PLASER",
+        "單次收費"
+      ]
     },
     {
       "slug": "wart-removal",
       "category": "等離子儀器",
       "title": "PLASER 等離子脫疣 / 脫油脂粒",
       "price": "明碼實價 · 逐粒計算",
-      "image": "images/promo-13.png",
+      "image": "images/promo/wart-removal.png",
       "excerpt": "1-PIN 單點模式氣化疣體，安全衛生，眼周油脂粒亦可處理。",
       "body": "面上、眼周、頸部凸起小粒？可能係疣（具傳染性）。PLASER 等離子 1-PIN 模式比傳統方法更快更準，保護周邊健康皮膚。\n\n脫疣：逐粒計（<1mm $50、2mm $100、3mm $300），全臉 $1280/次\n脫油脂粒：比針清更安全，減低眼周留疤風險\n\n術後避免果酸、注意防曬。",
-      "tags": ["脫疣", "脫油脂粒", "PLASER", "明碼實價"]
+      "tags": [
+        "脫疣",
+        "脫油脂粒",
+        "PLASER",
+        "明碼實價"
+      ]
     },
     {
       "slug": "manual-facial",
       "category": "人手護理",
       "title": "深層清潔補濕人手 Facial",
       "price": "單次收費",
-      "image": "images/promo-12.png",
+      "image": "images/promo/manual-facial.png",
       "excerpt": "西班牙醫學級護膚品牌，落妝→清潔→按摩→面膜，零壓力護膚體驗。",
       "body": "人氣療程！選用西班牙頂級醫學護膚品牌，由落妝、深層清潔、角質重建，到舒緩按摩同保濕面膜。人手按摩嘅溫度同放鬆感，係機器無可取代。無硬銷，無隱藏收費。",
-      "tags": ["人手Facial", "深層清潔", "保濕", "單次收費"]
+      "tags": [
+        "人手Facial",
+        "深層清潔",
+        "保濕",
+        "單次收費"
+      ]
     },
     {
       "slug": "liquid-gold-oil",
       "category": "人手護理",
       "title": "面部精油撥筋療程（液態黃金）",
       "price": "單次收費",
-      "image": "images/promo-16.png",
+      "image": "images/promo/liquid-gold.png",
       "excerpt": "TEGODER 山茶花 / 黑蘭花精油，量膚定制深層滋養同緊緻。",
       "body": "TEGODER「肌膚液態黃金」精油系列：\n\n🌸 山茶花精油 — 補水發光，改善粗糙+90%、膚乾+90%、光澤+45%\n🌺 黑蘭花精油 — 逆齡緊緻，彈性+39%、抗氧化+51%\n\n配合專業撥筋手勢，將精華完全滲透肌底。",
-      "tags": ["液態黃金", "面部撥筋", "精油", "抗老緊緻"]
+      "tags": [
+        "液態黃金",
+        "面部撥筋",
+        "精油",
+        "抗老緊緻"
+      ]
     },
     {
       "slug": "dr-rainbow",
       "category": "養生排毒",
       "title": "Dr. Rainbow 醫療級遠紅外線焗倉",
       "price": "30 分鐘 / 單次",
-      "image": "images/promo-06.png",
+      "image": "images/promo/dr-rainbow.png",
       "excerpt": "深入皮下 50mm，排毒祛濕、暖宮舒緩、坐住瘦。KFDA/FDA/CE 認證。",
       "body": "醫療級遠紅外線「生命之光」，深入皮下 50mm 引發細胞共振。排出重金屬、化妝品殘留物同老廢物，驅寒祛濕、改善宮寒經痛、舒緩疲勞。躺平 30 分鐘，氣色紅潤，成個人輕晒。KFDA、FDA、CE 認證。",
-      "tags": ["遠紅外線", "排毒", "祛濕", "暖宮", "屯門養生"]
+      "tags": [
+        "遠紅外線",
+        "排毒",
+        "祛濕",
+        "暖宮",
+        "屯門養生"
+      ]
     },
     {
       "slug": "dr-face",
       "category": "養生排毒",
       "title": "Dr. Face 醫療級遠紅外線童顏機",
       "price": "30 分鐘 / 單次",
-      "image": "images/promo-11.png",
+      "image": "images/promo/dr-face.png",
       "excerpt": "深入 50mm 激活細胞，白裡透紅，自帶天然胭脂。",
       "body": "韓國 Dr. Face 童顏機，遠紅外線能量深入皮下 50mm（比一般 HIFU 4.5mm 更深）。激活細胞、加速血液循環、深層排毒、改善雙下巴同鬆弛輪廓。30 分鐘喚醒沉睡肌膚，做完塊面白裡透紅。",
-      "tags": ["童顏機", "遠紅外線", "去黃", "氣血循環"]
+      "tags": [
+        "童顏機",
+        "遠紅外線",
+        "去黃",
+        "氣血循環"
+      ]
     },
     {
       "slug": "dampness-detox",
       "category": "養生排毒",
       "title": "排濕養生療程組合",
       "price": "單次收費",
-      "image": "images/promo-01.png",
+      "image": "images/promo/dampness-detox.png",
       "excerpt": "Dr. Rainbow 焗倉 + 拔罐刮痧 + 人手放鬆按摩，由內靚到外。",
       "body": "成日覺得好攰、面色黃、消化差、訓極都唔夠精神？可能係濕氣重、氣血不通。康姿健排濕養生療程組合：\n\n1️⃣ Dr. Rainbow 焗倉排濕\n2️⃣ 傳統拔罐 + 刮痧\n3️⃣ 人手放鬆按摩\n\n促進排汗排濕、改善循環、去黃氣、消水腫。適合長坐冷氣房、易水腫、代謝慢嘅你。",
-      "tags": ["排濕", "拔罐刮痧", "養生", "熟齡保養"]
+      "tags": [
+        "排濕",
+        "拔罐刮痧",
+        "養生",
+        "熟齡保養"
+      ]
     },
     {
       "slug": "bioskin-essence",
       "category": "精華導入",
       "title": "Bioskin 醫學級精華導入",
       "price": "加購 $300 配儀器療程",
-      "image": "images/promo-04.png",
+      "image": "images/promo/bioskin.png",
       "excerpt": "歐洲醫學級品牌，配合儀器導入滲透力提升 5 倍。",
       "body": "Bioskin 歐洲醫學級護膚品牌，7 大皇牌精華針對不同肌膚問題：\n\nBSK36 膠原補濕 | BSK3 抗皺 | BSK6 修復暗瘡\nBSK8 抗菌舒緩 | BSK29 維他命活化 | BSK14 光感透亮 | BSK7 美白淡斑\n\n配合儀器導入，滲透力提升 5 倍。無香料、無酒精、敏感肌適用。",
-      "tags": ["Bioskin", "精華導入", "正品保證", "醫美級"]
+      "tags": [
+        "Bioskin",
+        "精華導入",
+        "正品保證",
+        "醫美級"
+      ]
     }
   ],
   "knowledge": [
@@ -156,145 +233,211 @@
       "slug": "tegoder-custom-peeling",
       "category": "果酸知識",
       "title": "美容唔止靠儀器！西班牙醫學級「量膚定制」果酸療程",
-      "image": "images/promo-15.png",
+      "image": "images/promo/tegoder-overview.png",
       "excerpt": "4 款 TEGODER 果酸針對唔同膚質，量膚分析後對症下藥。",
       "body": "好多客人以為黎康姿健淨係做儀器？其實我哋嘅人手護膚品療程一樣係皇牌！每個人嘅膚質都唔同，點可以一條配方走天涯？我哋特別引入西班牙頂級醫學美容品牌 TEGODER，為大家帶黎 4 款針對唔同膚質嘅專屬果酸療程！\n\n無論你係油性/暗瘡肌、暗啞/色斑肌、敏感/泛紅肌定熟齡/鬆弛肌，我哋嘅專業美容師都會先幫你做詳細皮膚分析，再挑選最適合你嘅 TEGODER 果酸配方，真正做到「對症下藥」！",
-      "tags": ["TEGODER", "果酸煥膚", "量膚定制"]
+      "tags": [
+        "TEGODER",
+        "果酸煥膚",
+        "量膚定制"
+      ]
     },
     {
       "slug": "salipure-acne-peeling",
       "category": "果酸知識",
       "title": "【暗瘡粉刺篇】淨化平衡皮脂果酸幫毛孔大掃除",
-      "image": "images/promo-15.png",
+      "image": "images/promo/tegoder-salipure.png",
       "excerpt": "30% 水楊酸+杏仁酸，深層清潔溶解粉刺，抗菌抗炎。",
       "body": "天氣一笠，塊面就變「大油田」？TEGODER 淨化平衡皮脂果酸 30 蘊含 30% 複合酸（水楊酸 + 杏仁酸），pH 2.0-2.2。脂溶性水楊酸鑽入皮脂底層，深層清潔兼溶解粉刺，刺激感比一般果酸更低。",
-      "tags": ["暗瘡護理", "水楊酸", "深層清潔"]
+      "tags": [
+        "暗瘡護理",
+        "水楊酸",
+        "深層清潔"
+      ]
     },
     {
       "slug": "sensi-rose-peeling",
       "category": "果酸知識",
       "title": "【敏感泛紅篇】玫瑰亮白果酸打破敏感肌宿命",
-      "image": "images/promo-15.png",
+      "image": "images/promo/tegoder-rose.png",
       "excerpt": "21% 極溫和杏仁酸配方，敏感肌都可以安全煥膚。",
       "body": "皮膚薄、易敏感泛紅，係咪一世都唔做得果酸？絕對唔係！TEGODER 玫瑰亮白果酸 21 採用極溫和 21% 複合酸，主要成分係分子較大嘅杏仁酸，配合乳糖酸同乳酸，煥膚同時極致保濕。",
-      "tags": ["敏感肌", "玫瑰果酸", "溫和煥膚"]
+      "tags": [
+        "敏感肌",
+        "玫瑰果酸",
+        "溫和煥膚"
+      ]
     },
     {
       "slug": "pmp-antiaging-peeling",
       "category": "果酸知識",
       "title": "【抗老去斑篇】真皮更新複合酸逆轉肌齡",
-      "image": "images/promo-15.png",
+      "image": "images/promo/tegoder-pmp.png",
       "excerpt": "26% TCA+AHA+BHA 直達真皮層，緊緻提升褪斑提亮。",
       "body": "TEGODER 真皮更生複合酸 26 蘊含 26% 三氯乙酸 (TCA)、AHA 及 BHA，穿透表皮直達深層煥膚。促進組織再生、抑制黑色素、改善暗黃，特別加入薄荷醇減低不適感。",
-      "tags": ["抗衰老", "去斑美白", "真皮更新"]
+      "tags": [
+        "抗衰老",
+        "去斑美白",
+        "真皮更新"
+      ]
     },
     {
       "slug": "b3-whitening-peeling",
       "category": "果酸知識",
       "title": "【熬夜去黃急救篇】B3 果酸一秒掃黃",
-      "image": "images/promo-16.png",
+      "image": "images/promo/tegoder-b3.png",
       "excerpt": "4 大 WHITE 協同成分：乳酸、乙醇酸、維他命 B3、傳明酸。",
       "body": "日日捱夜，面色暗沉枯黃？TEGODER 淨白抗齡 B3 果酸 29 結合乳酸（軟化）、乙醇酸（脫落）、維他命 B3（阻止色素）、傳明酸（抑制黑色素），做完一次膚色即刻均勻提亮。",
-      "tags": ["去黃美白", "熬夜肌", "B3果酸"]
+      "tags": [
+        "去黃美白",
+        "熬夜肌",
+        "B3果酸"
+      ]
     },
     {
       "slug": "liquid-gold-facial-oil",
       "category": "護膚知識",
       "title": "【液態黃金篇】兩款西班牙頂級精油對症下藥",
-      "image": "images/promo-16.png",
+      "image": "images/promo/liquid-gold.png",
       "excerpt": "山茶花補水發光、黑蘭花逆齡緊緻，配合撥筋手勢深層滋養。",
       "body": "天氣同作息反覆，皮膚狀態好唔穩定？康姿健「面部精油撥筋療程」特選 TEGODER 液態黃金精油系列，山茶花改善粗糙+90%，黑蘭花彈性緊緻+39%。",
-      "tags": ["液態黃金", "面部撥筋", "精油"]
+      "tags": [
+        "液態黃金",
+        "面部撥筋",
+        "精油"
+      ]
     },
     {
       "slug": "sensitive-skin-rescue",
       "category": "護膚貼士",
       "title": "【敏弱肌自救篇】角質層受損點修復？",
-      "image": "images/promo-13.png",
+      "image": "images/promo/sensitive-skin.png",
       "excerpt": "轉季紅腫刺痛？減少刺激，改用低敏舒緩療程重建屏障。",
       "body": "一轉季塊面就紅卜卜？一出街就覺得刺刺地？你可能屬於「皮膚薄 + 角質層弱」！千祈唔好再做過度清潔或者煥膚，改用低敏舒緩療程，慢慢幫你重建皮膚屏障。",
-      "tags": ["皮膚敏感", "角質層薄", "低敏舒緩"]
+      "tags": [
+        "皮膚敏感",
+        "角質層薄",
+        "低敏舒緩"
+      ]
     },
     {
       "slug": "seasonal-skincare-tips",
       "category": "護膚貼士",
       "title": "【轉季護膚】皮膚「爆拆」急救 3 招",
-      "image": "images/promo-07.png",
+      "image": "images/promo/seasonal-tips.png",
       "excerpt": "切忌熱水洗面、加強保濕鎖水、暫停磨砂。",
       "body": "氣溫急降，塊面紅卜卜、乾到甩皮？轉季護膚貼士：1️⃣ 切忌用太熱嘅水洗面 2️⃣ 加強保濕鎖水，面霜搽厚少少 3️⃣ 暫停磨砂。推介黎康姿健做個人手保濕導入，幫皮膚起個防護罩。",
-      "tags": ["轉季保濕", "乾燥肌", "護膚小貼士"]
+      "tags": [
+        "轉季保濕",
+        "乾燥肌",
+        "護膚小貼士"
+      ]
     },
     {
       "slug": "cny-skincare-prep",
       "category": "護膚貼士",
       "title": "【過年準備】新年拜年前的毛孔大掃除",
-      "image": "images/promo-07.png",
+      "image": "images/promo/cny-prep.png",
       "excerpt": "清黑頭、提亮膚色、緊緻輪廓，預約要快手！",
       "body": "新年快到，係時候幫毛孔做個 spring cleaning！清走粉刺黑頭令上妝更貼服、提亮膚色趕走黃氣、緊緻輪廓影相更上鏡。年尾預約極度緊張，想靚住出街真係要快手 Book！",
-      "tags": ["深層清潔", "新年必備", "屯門美容"]
+      "tags": [
+        "深層清潔",
+        "新年必備",
+        "屯門美容"
+      ]
     },
     {
       "slug": "weekend-me-time",
       "category": "護膚貼士",
       "title": "【週末 Me Time】60 分鐘零壓力護膚體驗",
-      "image": "images/promo-12.png",
+      "image": "images/promo/weekend-me-time.png",
       "excerpt": "絕無硬銷、明碼實價、溫暖美容床，真正放鬆。",
       "body": "平日返工日忙夜忙，放假係咪應該要唞吓？喺康姿健，我哋堅持：❌ 絕無硬銷 ❌ 絕無隱藏收費 ✅ 只有溫暖美容床同溫柔到位手勢。合埋眼，暫時忘記工作煩惱。",
-      "tags": ["MeTime", "絕不硬銷", "身心放鬆"]
+      "tags": [
+        "MeTime",
+        "絕不硬銷",
+        "身心放鬆"
+      ]
     },
     {
       "slug": "pore-detox-infrared",
       "category": "醫美知識",
       "title": "毛孔都要排毒？遠紅外線深層清潔原理",
-      "image": "images/promo-06.png",
+      "image": "images/promo/pore-detox.png",
       "excerpt": "化妝品殘留、氧化油脂困住毛孔？Dr. Rainbow 深入 50mm 排毒。",
       "body": "洗面洗極都覺得污糟？毒素（化妝品殘留、氧化油脂、重金屬）困住毛孔，導致暗沉、粗糙、暗瘡。Dr. Rainbow 醫療級遠紅外線深入皮下 50mm，加速代謝排汗，排出油脂同化妝品殘留。",
-      "tags": ["遠紅外線", "毛孔排毒", "深層清潔"]
+      "tags": [
+        "遠紅外線",
+        "毛孔排毒",
+        "深層清潔"
+      ]
     },
     {
       "slug": "dampness-health-tips",
       "category": "醫美知識",
       "title": "【健康小知識】濕氣重、氣血不通點算？",
-      "image": "images/promo-01.png",
+      "image": "images/promo/dampness-detox.png",
       "excerpt": "成日攰、面色黃、消化差？排濕養生療程幫你由內靚到外。",
       "body": "成日覺得好攰、面色黃、消化差、訓極都唔夠精神？可能係濕氣重、氣血不通。香港人常飲凍飲又長期吹冷氣，康姿健排濕養生組合幫你促進排汗排濕、改善循環。",
-      "tags": ["排濕", "濕氣重", "養生", "屯門養生"]
+      "tags": [
+        "排濕",
+        "濕氣重",
+        "養生",
+        "屯門養生"
+      ]
     },
     {
       "slug": "collazen-hifu-secret",
       "category": "醫美知識",
       "title": "HIFU、RF 逆齡效果 Double Up 之秘密",
-      "image": "images/promo-09.png",
+      "image": "images/promo/collazen-hifu.png",
       "excerpt": "高能量療程前後功夫先係關鍵，COLLAZEN 5 步護理。",
       "body": "HIFU、RF 等高能量療程，皮膚準備同修復先係關鍵！COLLAZEN 膠原小旋風 5 步流程：SonoClean 清毛孔 → 3-Way Sono 補濕 → 3-Way HIFU 拉提 → RF 膠原 → Cryo 冰火修復。效果可以提升 200%！",
-      "tags": ["COLLAZEN", "HIFU", "RF", "膠原再生"]
+      "tags": [
+        "COLLAZEN",
+        "HIFU",
+        "RF",
+        "膠原再生"
+      ]
     },
     {
       "slug": "2026-hk-ol-skincare-guide",
       "category": "2026 護膚趨勢",
       "title": "【2026 香港OL護膚全攻略】25-35歲轉季敏感、暗瘡、熬夜肌",
-      "image": "images/promo-07.png",
+      "image": "images/promo/seasonal-tips.png",
       "excerpt": "香港濕熱天氣、冷氣乾燥、長工時熬夜——三大肌膚危機拆解。",
       "body": "25至35歲OL同時面對職場壓力、不規律作息同極端天氣。轉季敏感、暗瘡粉刺、熬夜暗沉係最常見困擾。2026 護膚新思維：量膚定制，唔好再一條配方走天涯。",
-      "tags": ["2026護膚", "香港OL", "屯門美容"]
+      "tags": [
+        "2026護膚",
+        "香港OL",
+        "屯門美容"
+      ]
     },
     {
       "slug": "2026-tuen-mun-beauty-salon-guide",
       "category": "2026 護膚趨勢",
       "title": "【2026 屯門美容院點揀？】單次收費無硬銷",
-      "image": "images/promo-12.png",
+      "image": "images/promo/weekend-me-time.png",
       "excerpt": "5 大準則：專業認證、量膚分析、明碼實價、正廠產品、真實口碑。",
       "body": "最怕入到美容院就被疲勞轟炸、狂 sell 套票。揀屯門美容院要睇：ITEC 認證、量膚定制、單次收費、正廠正貨、真實口碑。康姿健三大承諾：絕無硬銷、絕無隱藏收費、溫柔專業護理。",
-      "tags": ["屯門美容院", "單次收費", "無硬銷"]
+      "tags": [
+        "屯門美容院",
+        "單次收費",
+        "無硬銷"
+      ]
     },
     {
       "slug": "refer-friend-promo",
       "category": "優惠資訊",
       "title": "介紹朋友新優惠 — 同學愛，孖住變靚",
-      "image": "images/promo-05.png",
+      "image": "images/promo/refer-friend.png",
       "excerpt": "新客首次 8 折，介紹人每次賞 $50。屯門店限定。",
       "body": "介紹朋友一齊變靚！新客首次 Facial 體驗 8 折，介紹人每次成功介紹賞 $50 療程折扣。康姿健堅持效果 + 手勢 + 真誠，唔硬 sell。屯門店限定。",
-      "tags": ["介紹有賞", "屯門美容", "單次收費"]
+      "tags": [
+        "介紹有賞",
+        "屯門美容",
+        "單次收費"
+      ]
     }
   ]
 }
