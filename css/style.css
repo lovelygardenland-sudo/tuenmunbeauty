@@ -183,6 +183,7 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 35%;
 }
 
 .hero-content {
@@ -805,23 +806,28 @@ a:hover {
   position: fixed;
   bottom: 1.5rem;
   right: 1.5rem;
-  width: 54px;
-  height: 54px;
+  width: 56px;
+  height: 56px;
   background: #25d366;
-  color: #fff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.4rem;
   box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
   z-index: 200;
   transition: transform var(--transition);
+  padding: 0;
+  border: none;
+}
+
+.float-whatsapp img {
+  width: 30px;
+  height: 30px;
+  display: block;
 }
 
 .float-whatsapp:hover {
   transform: scale(1.08);
-  color: #fff;
 }
 
 /* 響應式 */

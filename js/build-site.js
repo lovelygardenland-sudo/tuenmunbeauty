@@ -137,7 +137,7 @@ function footer(prefix = "") {
     </div>
     <div>
       <h4>服務地區</h4>
-      <p>屯門、元朗、天水圍、荃灣及新界西</p>
+      <p>屯門</p>
       <p>WhatsApp：${SITE.phone}</p>
     </div>
   </div>
@@ -145,7 +145,7 @@ function footer(prefix = "") {
     <p>© 2026 康姿健 HONG CHI KIN · 香港屯門美容</p>
   </div>
 </footer>
-<a href="${SITE.whatsapp}" class="float-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp 預約">💬</a>`;
+<a href="${SITE.whatsapp}" class="float-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp 預約"><img src="${prefix}images/whatsapp-icon.svg" alt="" width="30" height="30"></a>`;
 }
 
 function detailPage(item, folder) {
@@ -178,7 +178,7 @@ ${header(`${folder}/${item.slug}.html`, "../")}
     ${
       item.price
         ? `<p class="price-badge">${item.price}</p>`
-        : '<p class="blog-meta">2026 醫美知識 · 香港 25-40 歲女性 · 屯門康姿健</p>'
+        : '<p class="blog-meta">2026 醫美知識 · 屯門康姿健</p>'
     }
     ${bodyToHtml(item.body)}
     <div class="blog-tags">${(item.tags || [])
@@ -280,7 +280,7 @@ fs.writeFileSync(
   layout(
     "療程服務｜康姿健屯門美容",
     "屯門康姿健療程服務：果酸、等離子、微針、激光、遠紅外線養生。單次收費，絕無硬銷。",
-    "images/promo/hero-banner.png",
+    "images/promo/hero-home.png",
     "services.html",
     servicesMain
   )
@@ -288,7 +288,7 @@ fs.writeFileSync(
 
 const blogMain = `<header class="blog-hero">
   <h1>醫美知識</h1>
-  <p>2026 最新護膚知識，專為香港 25-40 歲女性</p>
+  <p>2026 最新護膚知識與療程攻略</p>
 </header>
 <section class="section blog-section">
   <div class="blog-grid">
@@ -311,11 +311,11 @@ const featuredSvc = content.services.slice(0, 6);
 const featuredKnow = content.knowledge.slice(0, 3);
 
 const indexMain = `<section class="hero">
-  <div class="hero-bg"><img src="images/promo/hero-banner.png" alt="康姿健療程"></div>
+  <div class="hero-bg"><img src="images/promo/hero-home.png" alt="屯門康姿健醫美療程 — 量膚定制護膚"></div>
   <div class="hero-content">
     <span class="hero-badge">韓系少女感 · 醫美科技 · 單次收費</span>
     <h1>屯門醫美療程，量膚定制更安心</h1>
-    <p>粉紫韓系醫美風格，量膚定制療程與專業護膚知識，為香港 25-40 歲女性而設。</p>
+    <p>粉紫韓系醫美風格，專業量膚分析後為你配對療程，結合護膚知識分享。</p>
     <a href="services.html" class="btn btn-primary">立即查看療程</a>
     <a href="${SITE.whatsapp}" class="btn btn-outline" target="_blank" rel="noopener">WhatsApp 預約</a>
   </div>
@@ -349,8 +349,8 @@ fs.writeFileSync(
   path.join(root, "index.html"),
   layout(
     "康姿健｜屯門美容",
-    "屯門康姿健醫美中心，韓系少女感版面，療程與醫美知識整合。適合香港25-40歲女性。",
-    "images/promo/hero-banner.png",
+    "屯門康姿健醫美中心，韓系少女感版面，療程與醫美知識整合。量膚定制，單次收費。",
+    "images/promo/hero-home.png",
     "index.html",
     indexMain
   )
@@ -366,15 +366,15 @@ const aboutMain = `<header class="page-header"><h1>關於我們</h1><p>專注量
   <li>英國 ITEC LV4 國際專業激光美容師資格</li>
   <li>持續引入醫美級設備：PLASER、COLLAZEN、Genelux Lite、Dr. Rainbow</li>
 </ul>
-<h2>服務對象</h2>
-<p>主力服務香港 25-40 歲女士，特別關注暗瘡粉刺、敏感泛紅、色斑暗沉、初老鬆弛、熬夜疲勞肌等問題。</p>
+<h2>常見肌膚困擾</h2>
+<p>特別關注暗瘡粉刺、敏感泛紅、色斑暗沉、初老鬆弛、熬夜疲勞肌等問題。</p>
 </div></section>`;
 
 fs.writeFileSync(
   path.join(root, "about.html"),
   layout(
     "關於我們｜康姿健屯門美容",
-    "康姿健屯門美容：量膚定制、單次收費、絕無硬銷。專注香港25-40歲女性護膚與醫美需求。",
+    "康姿健屯門美容：量膚定制、單次收費、絕無硬銷。專注護膚與醫美療程。",
     "images/promo-12.png",
     "about.html",
     aboutMain
